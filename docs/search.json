@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hugues Meyer",
+    "section": "",
+    "text": "I am a postdoctoral rsearcher, currently working at the School of Physics and Astronomy at the University of Nottingham in the UK.\nMy research interests are revolving around statistical physica and stochastic processes, with special interest for non-Markovian dynamics, and the physics of search and exploration.\n\n\n School of Physics and Astronomy\nThe University of Nottingham\nUniversity Park\nNOTTINGHAM, NG7 2RD\nMail: hugues.meyer@nottingham.ac.uk\nTel: +44784037053"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "HM and H. Rieger. Optimal number of agents in a collective search and when to launch them. Phys. Rev. E 111, 064112 (2025) https://doi.org/10.1103/PhysRevE.111.064112\nHM, A. Wysocki and H. Rieger. Collective chemotactic search strategies, arXiv:2409.04262 (2024)\nHM and H. Rieger. Non-Markovian and Collective Search Strategies. In: D. Grebenkov, R. Metzler, G. Oshanin (eds), Target Search Problems. Springer, Cham. (2024)\nHM and H. Rieger. Alignment interaction and band formation in assemblies of auto-chemorepulsive walkers. Phys. Rev. E 108(3), 034604 (2023)\nHM, H. Rieger. Optimal non-markovian search strategies with ։-step memory. Phys. Rev. Lett. 127(7), 070601 (2021)\nHM, F. Glatzel, W. Wöhler, T. Schilling. Evaluation of memory effects at phase transitions and during relaxation processes. Phys. Rev. E 103(2), 022102 (2021)\nHM, S. Wolf, G. Stock, T. Schilling. A numerical procedure to evaluate memory effects in non-equilibrium coarse-grained models. Adv. Theory Sim. 2020, 2000197 (2020)\nHM, P. Pelagejcev, T. Schilling. Non-Markovian out-of-equilibrium dynamics: A general numerical procedure to construct time-dependent memory kernels for coarse-grained observables. Europhysics Letters 128, 40001 (2019)\nA. Kuhnhold, HM, G. Amati, P.Pelagejcev, T. Schilling. Derivation of an exact, nonequilibrium framework for nucleation: Nucleation is a priori neither diffusive nor Markovian. Phys. Rev. E 100(5), 052140 (2019)\nHM, T. Voigtmann and T. Schilling. On the dynamics of reaction coordinates in classical, time-dependent, many-body processes. J. Chem. Phys. 150(17), 174118 (2019)\nG. Amati, HM, T. Schilling. Memory effects in the Fermi-Pasta-Ulam model. J. Stat. Phys. 174(1), 219-257 (2019)\nHM, T. Voigtmann and T. Schilling. On the non-stationary generalized Langevin equation. J. Chem. Phys. 147(21), 214110 (2017)\nM. Dixit, HM and T. Schilling. Connectivity percolation in suspensions of attractive square-well spherocylinders. Phys. Rev. E 93(1), 012116 (2016)\nHM, P. van der Schoot and T. Schilling. Percolation in suspensions of polydisperse hard rods: quasi universality and finite-size effects. J. Chem. Phys. 143(4), 044901 (2015)"
+  },
+  {
+    "objectID": "CV.html",
+    "href": "CV.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Current and previous postiions\n\n2024 - Present: Postdoctoral fellow - School of Physics and Astronomy, University of Nottingham\n2020 - 2024: Postdoctoral fellow - Theoretical Physics department, Universität des Saarlandes\n2016 - 2020: PhD - University of Luxembourg & Albert-Ludwigs Universität Freiburg\n\n\n\nGrants and awards\n\n2021: Young Investigator Grant, Universität des Saarlandes\n2020: Excellent Doctoral Thesis Award, Doctoral School of Science and Engineering of the University of Luxembourg\n2016: AFR-PhD, Fonds national de la Recherche du Luxembourg"
+  },
+  {
+    "objectID": "research_overview.html",
+    "href": "research_overview.html",
+    "title": "Research",
+    "section": "",
+    "text": "Non-Markovian Dynamics\nNon-Markovian processes are those whose evolution in time is impacted by their past history, giving rise to memory effects. They arise in a wide variety of situations, typically as soon as degrees of freedom are hidden or unresolved. My work focuses on methods to (i) formalize mathematically the dynamics of such processes (ii) evaluate the extent of memory (iii) approximate solutions of non-Markovian equations of motion.\n\n\nSearch Processes\nA search process is any process in which one of multiple agens are lookin for a randomly located target. They are encountered aross many time and length scales in nature, from proteins walking along DNA strands to trigger biochemical reactions to immune response in which cells need to locate pathogens, animal foraging, or human search-and-rescue missions. In statistical physics, one tries to identify general mechanisms that make a search efficient. My research focuses on the impact of agent-agent interaction and on memory on the global search efficiency, and on defining relevant and realistic search costs."
+  }
+]
