@@ -1,0 +1,13 @@
+---
+title: "Research"
+---
+
+### Non-Markovian Dynamics
+
+Non-Markovian processes are those whose evolution in time is impacted by their past history, giving rise to memory effects. They arise in a wide variety of situations, typically as soon as degrees of freedom are hidden or unresolved. My work focuses on methods to (i) formalize mathematically the dynamics of such processes (ii) evaluate the extent of memory (iii) approximate solutions of non-Markovian equations of motion. 
+
+### Search Processes
+
+A search process is any process in which one of multiple agens are lookin for a randomly located target. They are encountered aross many time and length scales in nature, from proteins walking along DNA strands to trigger biochemical reactions to immune response in which cells need to locate pathogens, animal foraging, or human search-and-rescue missions. In statistical physics, one tries to identify general mechanisms that make a search efficient. My research focuses on the impact of agent-agent interaction and on memory on the global search efficiency, and on defining relevant and realistic search costs. 
+
+

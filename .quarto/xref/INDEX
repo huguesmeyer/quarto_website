@@ -1,0 +1,23 @@
+{
+  "index.qmd": {
+    "index.html": "5a302f7a"
+  },
+  "about.qmd": {
+    "about.html": "ffc9e59b"
+  },
+  "CV.qmd": {
+    "CV.html": "9c8e5c85"
+  },
+  "publications.qmd": {
+    "publications.html": "d7faf580"
+  },
+  "research.qmd": {
+    "research.html": "d0d04311"
+  },
+  "research_overview.qmd": {
+    "research_overview.html": "34765402"
+  },
+  "nonmarkov.qmd": {
+    "nonmarkov.html": "da86e9a4"
+  }
+}

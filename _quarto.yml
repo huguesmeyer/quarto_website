@@ -1,0 +1,33 @@
+project:
+  type: website
+
+website:
+  title: "Hugues Meyer"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: Research
+        menu: 
+          - href: research_overview.qmd
+            text: Overview
+          - href: nonmarkov.qmd
+            text: Non-Markovian dynamics
+          - href: search.qmd
+            text: Search processes
+      - href: publications.qmd
+        text: Publications
+      - href: CV.qmd
+        text: CV
+
+
+format:
+  html:
+    theme:
+      - cerulean
+      - brand
+    css: styles.css
+    toc: true
+
+
+
