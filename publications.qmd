@@ -5,7 +5,7 @@ title: "Publications"
 * HM and H. Rieger. Optimal number of agents in a collective search and when to launch them. Phys. Rev. E 111, 064112 (2025) <https://doi.org/10.1103/PhysRevE.111.064112>
 * HM, A. Wysocki and H. Rieger. Collective chemotactic search strategies, arXiv:2409.04262 (2024)
 * HM and H. Rieger. Non-Markovian and Collective Search Strategies. In: D. Grebenkov, R. Metzler, G. Oshanin (eds), Target Search Problems. Springer, Cham. (2024)
-* HM and H. Rieger. Alignment interaction and band formation in assemblies of auto-chemorepulsive walkers. Phys. Rev. E 108(3), 034604 (2023)
+* HM and H. Rieger. Alignment interaction and band formation in assemblies of auto-chemorepulsive walkers. Phys. Rev. E 108(3), 034604 (2023) <https://doi.org/10.1103/PhysRevE.108.034604>
 * HM, H. Rieger. Optimal non-markovian search strategies with ։-step memory. Phys. Rev. Lett. 127(7), 070601 (2021)
 * HM, F. Glatzel, W. Wöhler, T. Schilling. Evaluation of memory effects at phase transitions and during relaxation processes. Phys. Rev. E 103(2), 022102 (2021)
 * HM, S. Wolf, G. Stock, T. Schilling. A numerical procedure to evaluate memory effects in non-equilibrium coarse-grained models. Adv. Theory Sim. 2020, 2000197 (2020)
