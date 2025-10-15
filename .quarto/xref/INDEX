@@ -19,5 +19,11 @@
   },
   "nonmarkov.qmd": {
     "nonmarkov.html": "da86e9a4"
+  },
+  "search.qmd": {
+    "search.html": "32f673c9"
+  },
+  "percolation.qmd": {
+    "percolation.html": "711ee755"
   }
 }
