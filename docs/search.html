@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2858c192cbf27f27d426af5f9b132a25.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e66a194211cd60057a2bd940c893ec69.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -150,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -172,23 +172,30 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Search processes are everywhere in nature. From immune cells looking for pathogens to eliminate, to foraging ants in search, situations where agents need to find a target as quickly as possible are encountered across many length and time scales. As a statistical physicist, I am interested in the general mechanisms that make a search process efficient and what levers can b pulled in order to improve it.</p>
-<section id="explicit-memory" class="level4">
+<section id="explicit-memory" class="level4 page-columns page-full">
 <h4 class="anchored" data-anchor-id="explicit-memory">Explicit memory</h4>
-<div class="columns">
-<div class="column" style="width:60%;">
 <p>If the searcher can remember its previous path over the past few steps, can it design an efficient strategy t explore space as efficiently as possible? Using a discrete time and space setting, we showed that not only explicitly remembering the past steps can indeed be very useful, but also that remembering only a very few numbers of steps in the past is sufficient to dramatically improve the search efficiency, if this information is used appropriately. <a href="https://doi.org/10.1103/PhysRevLett.127.070601" class="uri">https://doi.org/10.1103/PhysRevLett.127.070601</a></p>
-</div><div class="column" style="width:40%;">
-<p><img src="diagrams.png" class="img-fluid"></p>
-</div><section id="chemotactic-search" class="level4">
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><img src="diagrams.png" class="img-fluid" width="220"></p>
+</div></div></section>
+<section id="chemotactic-search" class="level4 page-columns page-full">
 <h4 class="anchored" data-anchor-id="chemotactic-search">Chemotactic search</h4>
-<p>Chemotaxis is the ability for some particles organisms to guide their motion using chemical information. For example, bacteria may need to migrate towards regions of high nutrient concentration in order to survive and therefore orient their motion along concentration gradients. Conversely, organisms may be sens an ffective repulsion from certain chemical species that they need to avoid. Auto-chemotaxis refers to processes where the chemical cue is itself produced by the organism that later senses it. Auto-chemorepulsion is then an effective search strategy as the cue left along the searcher’s path acts as an effective memory of previously visited locations that one tried to avoid. Both the interaction strength with the cue as well as the decay and diffusion of the cue can be optimally tuned to reach spectacularly high collective search efficiencies approaching a perfect search. This results from a combination of three effects: (i) the searchers can be homogeneously spread acros a search domain thanks to the effective repulsive interactionmediated by the self-produced concentration fields, (ii) the self-interaction of each seracher with its own field allows it to be persistent, a necessary requirement for efficient search strategies, (iii) individual concentration fields act as memory shared by all searchers.</p>
-</section><section id="optimal-launching" class="level4">
+<p>Chemotaxis is the ability for particles and organisms to guide their motion using chemical information. For example, bacteria may need to migrate towards regions of high nutrient concentration in order to survive and therefore orient their motion along concentration gradients. Conversely, organisms may be sens an ffective repulsion from certain chemical species that they need to avoid. Auto-chemotaxis refers to processes where the chemical cue is itself produced by the organism that later senses it. Auto-chemorepulsion constitutes an effective search strategy as the cue left along the searcher’s path acts as an effective memory of previously visited locations that one tried to avoid. Both the interaction strength with the cue as well as the decay and diffusion of the cue can be optimally tuned to reach spectacularly high collective search efficiencies approaching a perfect search. This results from a combination of three effects: (i) the searchers can be homogeneously spread acros a search domain thanks to the effective repulsive interactionmediated by the self-produced concentration fields, (ii) the self-interaction of each seracher with its own field allows it to be persistent, a necessary requirement for efficient search strategies, (iii) individual concentration fields act as memory shared by all searchers.<br>
+Details available here: <a href="https://arxiv.org/abs/2409.04262" class="uri">https://arxiv.org/abs/2409.04262</a></p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><img src="chemotactic.png" class="img-fluid"></p>
+</div></div></section>
+<section id="optimal-launching" class="level4 page-columns page-full">
 <h4 class="anchored" data-anchor-id="optimal-launching">Optimal launching</h4>
+<p>While adding more agents into a collective search process will almost inevitably reduce the overall search time, it may however come a a certain cost. Whether searchers are immune cells looking for pathogens, or human gents in a search-and-rescue mission, producing (or hiring) a searcher and sustaining it requires resources. Accounting for these in an overall search cost function, not only the number of agents can be optimized but also the timing with which they should be launched into the process. In fact, if the probability for the target to still be alive decays quickly, it can be shown that searchers should be launched at increasingly longer time intervals. However, if this survival probability decays slowly, searchers should in th long run be launched at a constant pace. Details available here: <a href="https://doi.org/10.1103/PhysRevE.111.064112" class="uri">https://doi.org/10.1103/PhysRevE.111.064112</a></p>
 
 
-</section>
-</div>
-</section>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><img src="launching.png" class="img-fluid"></p>
+</div></div></section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
