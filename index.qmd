@@ -1,0 +1,27 @@
+---
+title: "Hugues Meyer"
+---
+
+I am a postdoctoral rsearcher, currently working at the School of Physics and Astronomy at the University of Nottingham in the UK. 
+
+My research interests are revolving around statistical physica and stochastic processes, with special interest for non-Markovian dynamics, and the physics of search and exploration.
+
+
+
+::: columns
+::: {.column width="70%"}
+
+<br>
+School of Physics and Astronomy \
+The University of Nottingham \
+University Park \
+NOTTINGHAM, NG7 2RD \
+Mail: hugues.meyer@nottingham.ac.uk \
+Tel: +44784037053 \
+
+:::
+
+
+::: {.column width="30%"}
+
+![](profile.png){}

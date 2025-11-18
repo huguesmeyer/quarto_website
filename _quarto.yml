@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: docs
+ 
+website:
+  title: "Hugues Meyer"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: Research
+        menu: 
+          - href: research_overview.qmd
+            text: Overview
+          - href: nonmarkov.qmd
+            text: Non-Markovian dynamics
+          - href: search.qmd
+            text: Search processes
+      - href: publications.qmd
+        text: Publications
+      - href: CV.qmd
+        text: CV
+    right:
+      - text: "{{< ai google-scholar >}}"
+        href: https://scholar.google.com/citations?user=fH1Qw9AAAAAJ&hl=fr&oi=ao
+      - text: "{{< ai orcid >}}"
+        href: https://orcid.org/0000-0003-4187-4495
+
+
+format:
+  html:
+    theme:
+      - simplex
+      - brand
+    css: styles.css
+    toc: true
+    grid:
+      margin-width: 450px
+
+
+
