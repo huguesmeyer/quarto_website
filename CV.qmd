@@ -2,18 +2,22 @@
 title: "Curriculum Vitae"
 ---
 
-### Current and previous postiions
+#### Current and previous postiions
 
-* 2024 - Present: Postdoctoral fellow - School of Physics and Astronomy, University of Nottingham 
-* 2020 - 2024: Postdoctoral fellow - Theoretical Physics department, Universität des Saarlandes
-* 2016 - 2020: PhD - University of Luxembourg & Albert-Ludwigs Universität Freiburg
-
+* 2024 - Present: Postdoctoral fellow - [School of Physics and Astronomy](https://www.nottingham.ac.uk/physics/), University of Nottingham (UK)
+* 2020 - 2024: Postdoctoral fellow - [Theoretical Physics department](https://www.rieger.uni-saarland.de/), Universität des Saarlandes (Germany)
 
 
-### Grants and awards
+#### Education
+
+* 2020: PhD - [University of Luxembourg](https://sites.google.com/view/legato-team/home) (Luxembourg) &  [Albert-Ludwigs Universität Freiburg](https://uni-freiburg.de/soft/) (Germany)
+* 2016: Master degree Nanophysics and Condensed Matter - Université de Strasbourg (France)
+* 2013: Bachelor degree in Physics - Sorbonne Université Paris & École Normale Supérieure de Cachan (France)
+* 2010: Baccalauréat - Nancy (France)
+
+
+#### Grants and awards
 
 * 2021: Young Investigator Grant, Universität des Saarlandes
 * 2020: Excellent Doctoral Thesis Award, Doctoral School of Science and Engineering of the University of Luxembourg
 * 2016: AFR-PhD, Fonds national de la Recherche du Luxembourg
-
-
