@@ -2,26 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://huguesmeyer.github.io/quarto_website/index.html</loc>
-    <lastmod>2025-11-18T15:20:36.350Z</lastmod>
+    <lastmod>2025-11-18T16:06:59.887Z</lastmod>
   </url>
   <url>
     <loc>https://huguesmeyer.github.io/quarto_website/publications.html</loc>
     <lastmod>2025-11-18T15:21:16.770Z</lastmod>
   </url>
   <url>
-    <loc>https://huguesmeyer.github.io/quarto_website/search.html</loc>
-    <lastmod>2025-11-18T15:40:11.420Z</lastmod>
+    <loc>https://huguesmeyer.github.io/quarto_website/nonmarkov.html</loc>
+    <lastmod>2025-11-18T16:06:59.887Z</lastmod>
   </url>
   <url>
     <loc>https://huguesmeyer.github.io/quarto_website/CV.html</loc>
-    <lastmod>2025-11-18T15:44:52.044Z</lastmod>
+    <lastmod>2025-11-18T16:06:59.815Z</lastmod>
   </url>
   <url>
-    <loc>https://huguesmeyer.github.io/quarto_website/nonmarkov.html</loc>
-    <lastmod>2025-11-18T15:11:23.933Z</lastmod>
+    <loc>https://huguesmeyer.github.io/quarto_website/search.html</loc>
+    <lastmod>2025-11-18T16:06:59.899Z</lastmod>
+  </url>
+  <url>
+    <loc>https://huguesmeyer.github.io/quarto_website/percolation.html</loc>
+    <lastmod>2025-11-18T16:06:59.887Z</lastmod>
   </url>
   <url>
     <loc>https://huguesmeyer.github.io/quarto_website/research_overview.html</loc>
-    <lastmod>2025-11-18T15:41:25.293Z</lastmod>
+    <lastmod>2025-11-18T16:06:59.899Z</lastmod>
   </url>
 </urlset>

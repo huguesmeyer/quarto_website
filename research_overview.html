@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Non-Markovian Dynamics – Hugues Meyer</title>
+<title>Research – Hugues Meyer</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e66a194211cd60057a2bd940c893ec69.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-d36e565579a4406e25e56dda5b92337d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -124,16 +124,6 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="https://scholar.google.com/citations?user=fH1Qw9AAAAAJ&amp;hl=fr&amp;oi=ao"> 
-<span class="menu-text">{{&lt; ai google-scholar &gt;}}</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="https://orcid.org/0000-0003-4187-4495"> 
-<span class="menu-text">{{&lt; ai orcid &gt;}}</span></a>
-  </li>  
-</ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
@@ -144,15 +134,22 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#non-markovian-dynamics" id="toc-non-markovian-dynamics" class="nav-link active" data-scroll-target="#non-markovian-dynamics">Non-Markovian Dynamics</a></li>
+  <li><a href="#search-processes" id="toc-search-processes" class="nav-link" data-scroll-target="#search-processes">Search Processes</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Non-Markovian Dynamics</h1>
+<h1 class="title">Research</h1>
 </div>
 
 
@@ -169,19 +166,16 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="coarse-graining-and-generalized-langevin-equations-out-of-equilibrium" class="level4">
-<h4 class="anchored" data-anchor-id="coarse-graining-and-generalized-langevin-equations-out-of-equilibrium">Coarse-graining and Generalized Langevin Equations out of equilibrium</h4>
-<p>Dynamical processes involving a large number of microscopic degrees of freedom are very often effectively described through a restricted sets of relevant observables that describe the system on a coarse scale, either because microscopic degrees of freedom are not accessible or resolved, or because the detailes of their dynamics is no important. Deriving equations of motion governing such observables is a chalenge that have kept physicists busy for more than a century, and a systematic approach for equilibrum processes has been introduced in the 1960’s by Zwanzig, Mori and others using projection operator techniques. The general mathematical structure of such equations is known as the Generalized Langevin Equation and combines three contributions, namely a time-local drif term, a memory term that accouts for the past history and a fluctuating force, whose auo-correlation function is proportionally related to the memory kernel. Although its original derivation was introduced for equilibrum processes, we showed that it can be extended to processes arbitrarily far from equilibrium. In addition, we show how the various contributions of the equation can be evaluated numerically from experimental or numerical timeseries. Details available here: <a href="https://doi.org/10.1063/1.5006980" class="uri">https://doi.org/10.1063/1.5006980</a>, <a href="https://doi.org/10.1063/1.5090450" class="uri">https://doi.org/10.1063/1.5090450</a>, <a href="https://doi.org/10.1063/1.5090450" class="uri">https://doi.org/10.1063/1.5090450</a>, <a href="https://doi.org/10.1002/adts.202000197" class="uri">https://doi.org/10.1002/adts.202000197</a>.</p>
+<section id="non-markovian-dynamics" class="level3">
+<h3 class="anchored" data-anchor-id="non-markovian-dynamics">Non-Markovian Dynamics</h3>
+<p>Non-Markovian processes are those whose evolution in time is impacted by their past history, giving rise to memory effects. They arise in a wide variety of situations, typically as soon as degrees of freedom are hidden or unresolved. My work focuses on methods to (i) formalize mathematically the dynamics of such processes (ii) evaluate the extent of memory (iii) approximate solutions of non-Markovian equations of motion.</p>
 </section>
-<section id="approximating-weak-memory-dynamics" class="level4 page-columns page-full">
-<h4 class="anchored" data-anchor-id="approximating-weak-memory-dynamics">Approximating weak-memory dynamics</h4>
-<p>While a great variety of natural processes are described by equations with memory, finding solutions of such equations is usually a hard task. Instead, one may want to come up with accurate approximations of the true solutions. A broad range of methods have been introduced but ofte suffer from the inconveninence of being either too system specific or based on uncontrolled assumptions. For processes where mmory effcts play an important role but are subdominant, a systematic way of deriving faithful approximations that are the solutions of time-local equations converging to Markovian processes. This formalism and the method t rigoroulsy construct such approximations can be derived not only in continuous time but also for processs described by a discrete time variable. Details are available here: <a href="https://doi.org/10.1103/PhysRevLett.134.037101" class="uri">https://doi.org/10.1103/PhysRevLett.134.037101</a>, <a href="https://arxiv.org/abs/2510.26325" class="uri">https://arxiv.org/abs/2510.26325</a></p>
+<section id="search-processes" class="level3">
+<h3 class="anchored" data-anchor-id="search-processes">Search Processes</h3>
+<p>A search process is any process in which one of multiple agens are lookin for a randomly located target. They are encountered aross many time and length scales in nature, from proteins walking along DNA strands to trigger biochemical reactions to immune response in which cells need to locate pathogens, animal foraging, or human search-and-rescue missions. In statistical physics, one tries to identify general mechanisms that make a search efficient. My research focuses on the impact of agent-agent interaction and on memory on the global search efficiency, and on defining relevant and realistic search costs.</p>
 
 
-
-<div class="no-row-height column-margin column-container"><div class="">
-<p><img src="F1-1.png" class="img-fluid"></p>
-</div></div></section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
